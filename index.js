@@ -39,6 +39,7 @@ result = people.reduce((acc, person) => {
 }, null);
 
 // find by name
+people.reduce((acc, person) => person.name === 'Leigh' ? acc = person : acc = acc) 
 
 result = people.reduce((acc, person) => {
   if (acc !== null) return acc;
